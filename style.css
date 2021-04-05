@@ -1,12 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
 body{
-    color: rosybrown;
-}
+    font-family: 'Noto Sans JP', sans-serif;
 
-h1{
-    color: seagreen;
 }
-
-h2{
-    color: slategray;
-}
-
