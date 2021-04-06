@@ -2,11 +2,13 @@
 
 :root{
     --primary-color: #E55F5F;
-    --dark-grey: #4B5563
+    --dark-grey: #4B5563;
+    --off-grey: #E5E7EB;
 }
 
 body{
     font-family: 'Noto Sans JP', sans-serif;
+    
 
 }
 
@@ -17,11 +19,14 @@ hr{
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: 1rem;
+    
 }
 
 .container-center{
     max-width: 600px;
-    margin: auto;    
+    margin: auto;   
+    
 }
 
 /** links **/
@@ -97,4 +102,15 @@ hr{
 
 .header .heading-inverted{
     color: var(--primary-color);
+}
+
+/** section **/
+.section h1{
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.ow{
+    background-color: var(--off-grey);
 }
