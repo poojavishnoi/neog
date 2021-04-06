@@ -33,15 +33,18 @@ hr{
 
 /** links **/
 .link{
+    margin-top: 0.5rem;
     padding: 0.5rem 1rem;
     text-decoration: none;
 
 
 }
 .primary-link{
+    margin: 1rem 0rem;
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
+
     
 }
 
@@ -60,6 +63,14 @@ hr{
 .list-inline{
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+ol{
+    padding-inline-start: 0px;
+}
+
+.section h1 .list-project{
+    text-align: left;
 }
 
 /** navigation **/
@@ -98,6 +109,7 @@ hr{
 }
 
 .header .header-heading{
+   
     text-align: center;
     color: var(--dark-grey);
 }
@@ -113,7 +125,12 @@ hr{
 
 }
 
+.section{
+    padding: 0.5rem 0rem;
+}
+
 .ow{
+    padding: 0.5rem 0rem;
     background-color: var(--off-grey);
     color: black;
 }
@@ -131,3 +148,7 @@ hr{
     color: white;
 }
 
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
+}
