@@ -201,7 +201,8 @@ ol{
 }
 
 .footer p{
-    padding: 0;
+    padding: 0 0 0 0.2rem;
     margin-block-start: 0rem;
     margin-block-end: 0rem;
+    max-width: 80px;
 }
