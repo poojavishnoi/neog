@@ -62,7 +62,7 @@ hr{
 
 .list-inline{
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 0rem;
 }
 
 ol{
@@ -102,14 +102,17 @@ ol{
 
 .navigation .nav-pills{
     text-align:right;
+    
 }
 .navigation .link{
     color: white;
+    padding: 0.5rem 0.5rem;
 }
 
 .navigation .link-active{
     font-weight: bold;
 }
+
 
 /** header **/
 .header{
@@ -204,5 +207,5 @@ ol{
     padding: 0 0 0 0.2rem;
     margin-block-start: 0rem;
     margin-block-end: 0rem;
-    max-width: 80px;
+    
 }
