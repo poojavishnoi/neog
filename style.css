@@ -117,9 +117,10 @@ ol{
 }
 
 .header .header-img{
-    max-width: 350px;
+    max-width: 250px;
     display: block;
     margin: auto;
+    
 }
 
 .header .header-heading{
