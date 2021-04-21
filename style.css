@@ -10,7 +10,7 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #111827;
     color: white;
-    font-style: italic;
+    
 
 }
 
@@ -21,7 +21,7 @@ hr{
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     
 }
 
@@ -69,9 +69,17 @@ ol{
     padding-inline-start: 0px;
 }
 
-.section h1 .list-project{
+.section .list-project{
     text-align: left;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-bottom: 0;
 }
+
+.projects .project-list{
+    padding-bottom: 2.5rem;
+}
+
 
 /** navigation **/
 .navigation{
@@ -121,7 +129,13 @@ ol{
 /** section **/
 .section h1{
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 2rem 2rem 0rem;
+
+}
+
+.projects .section h1{
+    text-align: left;
+    padding: 2rem 2rem 1rem 0rem;
 
 }
 
@@ -129,11 +143,22 @@ ol{
     padding: 0.5rem 0rem;
 }
 
+
 .ow{
     padding: 0.5rem 0rem;
     background-color: var(--off-grey);
     color: black;
 }
+
+.sec .ow{
+    margin: 0rem 10rem;
+    border-radius: 3rem;
+}
+
+.sec .ow p{
+    padding-top: 2rem;
+}
+
 
 /** footer **/
 .footer{
@@ -151,4 +176,14 @@ ol{
 .footer .footer-header{
     font-size: large;
     font-weight: bold;
+}
+
+.sec .footer{
+    padding: 1rem;
+}
+
+.footer p{
+    padding: 0;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
 }
