@@ -80,6 +80,12 @@ ol{
     padding-bottom: 2.5rem;
 }
 
+.projects .ow{
+    border-radius: 1.5rem;
+    padding-left: 1rem;
+    
+}
+
 
 /** navigation **/
 .navigation{
@@ -127,6 +133,8 @@ ol{
 }
 
 /** section **/
+
+
 .section h1{
     text-align: center;
     padding: 2rem 2rem 2rem 0rem;
@@ -141,6 +149,7 @@ ol{
 
 .section{
     padding: 0.5rem 0rem;
+    object-fit: cover;
 }
 
 
@@ -148,15 +157,23 @@ ol{
     padding: 0.5rem 0rem;
     background-color: var(--off-grey);
     color: black;
+
 }
 
 .sec .ow{
-    margin: 0rem 10rem;
+    margin: 0rem 5rem;
     border-radius: 3rem;
+    
 }
+
+
 
 .sec .ow p{
     padding-top: 2rem;
+}
+
+.section .container{
+    border-radius: 1.5rem;
 }
 
 
