@@ -91,7 +91,7 @@ ol{
 .navigation{
     background-color: #E55F5F;
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 0 1rem;
 }
 
@@ -161,7 +161,7 @@ ol{
 }
 
 .sec .ow{
-    margin: 0rem 5rem;
+    margin: 0rem 3rem;
     border-radius: 3rem;
     
 }
