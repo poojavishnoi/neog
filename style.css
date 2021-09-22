@@ -180,7 +180,13 @@ ol{
     border-radius: 1.5rem;
 }
 
-
+.showcase-list {
+    
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 1rem auto;
+}
 /** footer **/
 .footer{
     padding: 2rem 1rem;
